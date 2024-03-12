@@ -1,2 +1,3 @@
-# tutorial_git_camila
-Ejemplo de la primera clase de procesamiento avanzado de la informaciÃ³n
+# Tutorial sobre git 
+
+Ejemplo de la primera clase de procesamiento avanzado de la información

@@ -1,0 +1,50 @@
+Tarea 1
+================
+Camila Lopez
+3/26/24
+
+## Introducción
+
+**mtcars** es una base de datos sobre pruebas en carretera de coches de
+Motor Trend.
+
+### Figuras
+
+Se realiza una figura a partir de los datos utilizando el siguiente
+código:
+
+``` r
+ggplot(mtcars, aes(hp,qsec))+
+  geom_point(aes(color=am, size=cyl))+
+  labs(x="Caballos de fuerza", y="Tiempo de 1/4 de milla",
+       title="Caballos velocidad según cilindraje y tipo de carra")
+```
+
+![](demo_files/figure-commonmark/unnamed-chunk-2-1.png)
+
+La siguiente figura se obtiene a partir de un archivo de imagen externo
+
+![](imagenes/imagen.png)
+
+### Marcado de texto y escritura matemática
+
+Esta línea de texto se utiliza la sintaxis **Markdown** y se incluye
+*escritura matemática* ($f(x)=e^{x-1}+x^2$)
+
+Por fuera de la línea también se pueden incluir ecuaciones:
+
+$f(x)=\dfrac{e^{-\mu}\mu^x }{x!}$
+
+### Listas
+
+Para ejemplificar una lista numerada. Los pilares de la investigación
+reproducible son:
+
+1.  Organización del trabajo de análisis de datos en proyectos.
+
+2.  Implementación de un sistema de control de versiones.
+
+3.  Cuidadosa importación de datos en el software.
+
+4.  Automatización de tareas relacionadas a la comunicación y
+    publicación de resultados.
